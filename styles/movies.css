@@ -1,0 +1,24 @@
+#navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#movies{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+#movies>#card{
+  height: 450px;
+  /* width: 30%; */
+}
+
+#card>img{
+  height: 70%;
+}
